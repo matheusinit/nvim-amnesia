@@ -21,6 +21,7 @@ ts.setup {
     'markdown',
     'python',
     'typescript',
+    'markdown'
   },
   autotag = {
     enable = true,
