@@ -49,6 +49,8 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
+  use 'iamcco/markdown-preview.nvim' -- Markdown previewer
+
   use {
     'numToStr/Comment.nvim',
     config = function()
