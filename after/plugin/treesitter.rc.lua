@@ -21,9 +21,12 @@ ts.setup {
     'markdown',
     'python',
     'typescript',
-    'markdown'
+    'markdown',
+    'html'
   },
   autotag = {
     enable = true,
   }
 }
+
+vim.api.nvim_command [[autocmd BufRead,BufEnter *.astro set filetype=astro]]
